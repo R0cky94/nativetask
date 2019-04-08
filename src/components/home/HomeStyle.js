@@ -1,4 +1,6 @@
 import {StyleSheet} from 'react-native';
+import {commonColor} from '../common/icons';
+
 
 const styles = StyleSheet.create({
     homeHeadingView: {
@@ -18,12 +20,12 @@ const styles = StyleSheet.create({
     },
     headingTextStyle: {
         fontSize: 20,
-        color: "#16264c",
+        color: commonColor,
         fontWeight: "normal"
     },
     headingText2Style: {
         fontSize: 20,
-        color: "#16264c",
+        color: commonColor,
         fontWeight: "bold"
     },
     boxFirstRowView: {
@@ -44,7 +46,7 @@ const styles = StyleSheet.create({
     },
     boxLeftTextStyle: {
         fontSize: 18,
-        color: "#16264c",
+        color: commonColor,
         marginLeft: 8
     },
     boxRightTextStyle: {
@@ -53,7 +55,7 @@ const styles = StyleSheet.create({
     },
     boxLeftText3Style: {
         fontSize: 18,
-        color: "#16264c",
+        color: commonColor,
         marginLeft: 16
     }
 });

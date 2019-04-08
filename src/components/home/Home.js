@@ -4,7 +4,8 @@ import Header from "../common/header";
 import Icon from 'react-native-vector-icons/FontAwesome';
 import styles from './HomeStyle';
 import {plusIcon} from '../common/icons'
-import {minusIcon} from '../common/icons'
+import {minusIcon} from '../common/icons';
+import {commonColor} from '../common/icons';
 
 class Home extends Component {
     constructor(props) {
@@ -93,7 +94,7 @@ class Home extends Component {
             <View>
                 <Header title={"Task"}/>
                 <View style={styles.homeHeadingView}>
-                    <Icon name={"users"} size={24} color={"#16264c"}/>
+                    <Icon name={"users"} size={24} color={commonColor}/>
                     <View style={styles.headingTextView}>
                         <Text style={styles.headingTextStyle}>Choose number of </Text>
                         <Text style={styles.headingText2Style}>People</Text>
@@ -102,7 +103,7 @@ class Home extends Component {
                 <View style={styles.selectBoxView}>
                     <View style={styles.boxFirstRowView}>
                         <View style={styles.boxLeftView}>
-                            <Icon name={"bed"} size={24} color={"#16264c"}/>
+                            <Icon name={"bed"} size={24} color={commonColor}/>
                             <Text style={styles.boxLeftTextStyle}>Rooms</Text>
                         </View>
                         <View style={styles.rowRightView}>
@@ -121,7 +122,7 @@ class Home extends Component {
                     </View>
                     <View style={styles.boxFirstRowView}>
                         <View style={styles.boxLeftView}>
-                            <Icon name={"user"} size={24} color={"#16264c"}/>
+                            <Icon name={"user"} size={24} color={commonColor}/>
                             <Text style={styles.boxLeftText3Style}>Adults</Text>
                         </View>
                         <View>
@@ -141,7 +142,7 @@ class Home extends Component {
                     </View>
                     <View style={styles.boxFirstRowView}>
                         <View style={styles.boxLeftView}>
-                            <Icon name={"child"} size={24} color={"#16264c"}/>
+                            <Icon name={"child"} size={24} color={commonColor}/>
                             <Text style={styles.boxLeftText3Style}>Children</Text>
                         </View>
                         <View>
